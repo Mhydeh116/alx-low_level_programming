@@ -1,18 +1,14 @@
-#include "main.h"
-/**
- * main - I code like an amateur
- * Description: using the main function
- * this program prints _putchar
- * Return: 0
- */
-int main(void)
-{	char var[] = "_putchar";
-	int i;
-	int lenVar = sizeof(var) / sizeof(var[0]);
-	for (i = 0; i < lenVar - 1; i++)
-	{
-		_putchar(var[i]);
-	}
-	_putchar('\n');
-	return (0);
-}
+int _putchar(char c);
+void print_alphabet(void);
+void print_alphabet_x10(void);
+int _islower(int c);
+int _isalpha(int c);
+int print_sign(int n);
+int _abs(int n);
+int print_last_digit(int n);
+void jack_bauer(void);
+void times_table(void);
+int add(int a, int b);
+void print_to_98(int n);
+void print_times_table(int n);
+void putformat(int);
